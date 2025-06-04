@@ -39,3 +39,16 @@ h1, h2, h3 {
   text-align: left;
   color: #b084ff;
 }
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+  margin-top: 1rem;
+}
+
+.day {
+  border: 1px solid #b084ff;
+  padding: 0.5rem;
+  text-align: center;
+}
