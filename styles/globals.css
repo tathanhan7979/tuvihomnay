@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #1a0025;
+  color: #e0d4f7;
+}
+
+.container {
+  padding: 2rem;
+}
+
+h1, h2, h3 {
+  color: #b084ff;
+}
+
+.placeholder {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.chat-widget {
+  border: 1px solid #b084ff;
+  padding: 1rem;
+}
+
+.chat-window {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}
+
+.chat-window .user {
+  text-align: right;
+  color: #fff;
+}
+
+.chat-window .assistant {
+  text-align: left;
+  color: #b084ff;
+}
